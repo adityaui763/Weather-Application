@@ -1,0 +1,22 @@
+How to Create Our Weather Application
+To make our weather application work, we need OpenWeatherMap, a third-party API that'll let us fetch the weather data.
+
+Go to https://home.openweathermap.org/users/sign_up and create your own account.
+
+After you are done, click on the API option on the Navigation bar. You'll see different options like Current Weather Data, Hourly 4 hour forecasts, 16 day forecasts, and others. 
+These are API endpoints that you'll need to fetch the data.
+
+
+You also need an API key to call these APIs. To get your API key, click on your username in the top right corner, and then on "my API keys".
+
+Create an API key if it doesn't already exist.
+
+In your main app folder, create a file called .env.
+
+This is an environment variable file that will contain all your API endpoints and keys.
+
+REACT_APP_API_URL = 'https://api.openweathermap.org/data/2.5'
+REACT_APP_API_KEY = Paste your API key here.
+REACT_APP_ICON_URL = 'https://openweathermap.org/img/w'
+Paste your copied API key in the REACT_APP_API_KEY variable.
+b28e3b0fb3f13b144452d1401a404f56
